@@ -1,0 +1,108 @@
+{
+  "offers": [
+    {
+      "id": 1,
+      "name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d iPhone 11 128GB",
+      "brand": "Apple",
+      "category": "\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0435 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b / Apple",
+      "merchant": "Very good shop",
+      "attributes": [
+        {
+          "name": "RAM",
+          "value": "4GB"
+        },
+        {
+          "name": "ROM",
+          "value": "128GB"
+        }
+      ],
+      "image": {
+        "width": 199,
+        "height": 399,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/IPhone_11_Green.svg/199px-IPhone_11_Green.svg.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Xiaomi Poco x3 PRO 8/256GB",
+      "brand": "Xiaomi",
+      "category": "\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0435 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b / Xiaomi",
+      "merchant": "Some china shop",
+      "attributes": [
+        {
+          "name": "RAM",
+          "value": "8GB"
+        },
+        {
+          "name": "ROM",
+          "value": "256GB"
+        },
+        {
+          "name": "FRONT CAMERA",
+          "value": "50MP"
+        }
+      ],
+      "image": {
+        "width": 220,
+        "height": 147,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Smartphone_Use.jpg/220px-Smartphone_Use.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Samsung Galaxy S21 12/256GB",
+      "brand": "Samsung",
+      "category": "\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0435 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b / Samsung",
+      "merchant": "Some korean shop",
+      "attributes": [
+        {
+          "name": "RAM",
+          "value": "12GB"
+        },
+        {
+          "name": "ROM",
+          "value": "256GB"
+        },
+        {
+          "name": "Bluetooth Version",
+          "value": "5.0"
+        },
+        {
+          "name": "NFC",
+          "value": "Yes"
+        }
+      ],
+      "image": {
+        "width": 170,
+        "height": 302,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/SamsungGalaxyS20plus5G128G2020SMG9860TaiwanFrontReady20200910.jpg/170px-SamsungGalaxyS20plus5G128G2020SMG9860TaiwanFrontReady20200910.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Wi-Fi \u0440\u043e\u0443\u0442\u0435\u0440 TP-Link Archer C80",
+      "brand": "TP-Link",
+      "category": "\u0421\u0435\u0442\u0435\u0432\u043e\u0435 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435 Wi-Fi / Wi-Fi \u0440\u043e\u0443\u0442\u0435\u0440\u044b",
+      "merchant": "Some korean shop",
+      "attributes": [
+        {
+          "name": "VPN",
+          "value": "L2TP, PPTP, Wi-Fi, Ethernet"
+        },
+        {
+          "name": "LAN",
+          "value": "4"
+        },
+        {
+          "name": "External antennas",
+          "value": "4"
+        }
+      ],
+      "image": {
+        "width": 170,
+        "height": 302,
+        "url": "https://kattabozor.s3.eu-central-1.amazonaws.com/ri/41c82aab0c8a74cad829dcb7bb150c85e020ac84dfbce821f2a473dba44245c4_FR8ah7_640l.jpg"
+      }
+    }
+  ]
+}

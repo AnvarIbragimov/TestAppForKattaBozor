@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Test App</string>
+    <string name="product_name_wp">Product name:</string>
+    <string name="brand_name_wp">Brand name:</string>
+    <string name="category_name_wp">Category name:</string>
+    <string name="merchant_name_wp">Merchant name:</string>
+    <string name="more_dots">еще…</string>
+    <string name="hide_more">hide</string>
+</resources>
