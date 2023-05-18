@@ -48,7 +48,7 @@ class ProductsFragment:Fragment() {
     private fun callProducts() = viewModel.getOffers()
 
     private fun observeProducts(){
-        viewModel.products.observe(this){res->
+        viewModel.products.observe(viewLifecycleOwner){res->
             when(res){
                 is ApiResult.Loading->binding.refreshLayout.isRefreshing = true
                 is ApiResult.Success->{

@@ -34,9 +34,9 @@ object NetworkModule {
     @Provides
     fun provideHttpInterceptor(): HttpLoggingInterceptor {
 
-        val loggingInterceptor = HttpLoggingInterceptor()
-
-            loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
+        val loggingInterceptor = HttpLoggingInterceptor().apply {
+            setLevel(HttpLoggingInterceptor.Level.BODY)
+        }
 
         return loggingInterceptor
     }
