@@ -16,7 +16,7 @@
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:layout_marginEnd="16dp"
-            app:cardBackgroundColor="@color/white"
+            app:cardBackgroundColor="@color/black_50"
             app:cardCornerRadius="12dp"
             app:cardElevation="0dp">
 
@@ -161,8 +161,7 @@
         <LinearLayout
             android:id="@+id/ll_additional"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="#975252"
+            android:layout_height="wrap_content"
             android:orientation="vertical" />
 
     </net.cachapa.expandablelayout.ExpandableLayout>

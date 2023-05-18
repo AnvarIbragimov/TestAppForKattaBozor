@@ -1,10 +1,10 @@
-package com.example.testappforkattabozor.dynamic_views
+package com.example.testappforkattabozor.ui.dynamic_views
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.widget.LinearLayout
 import com.example.testappforkattabozor.databinding.VerticalViewBinding
-import com.example.testappforkattabozor.models.ProductAttributesData
+import com.example.testappforkattabozor.data.models.ProductAttributesData
 
 class VerticalView(context: Context) : LinearLayout(context) {
 

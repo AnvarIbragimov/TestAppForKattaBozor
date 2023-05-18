@@ -1,4 +1,4 @@
-package com.example.testappforkattabozor.adapters
+package com.example.testappforkattabozor.ui.adapters
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -10,12 +10,13 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.testappforkattabozor.R
-import com.example.testappforkattabozor.adapters.ProductsAdapter.ViewHolder
+import com.example.testappforkattabozor.ui.adapters.ProductsAdapter.ViewHolder
 import com.example.testappforkattabozor.databinding.ItemProductBinding
-import com.example.testappforkattabozor.dynamic_views.VerticalView
-import com.example.testappforkattabozor.models.ProductData
+import com.example.testappforkattabozor.ui.dynamic_views.VerticalView
+import com.example.testappforkattabozor.data.models.ProductData
+import javax.inject.Inject
 
-class ProductsAdapter : RecyclerView.Adapter<ViewHolder>() {
+class ProductsAdapter @Inject constructor() : RecyclerView.Adapter<ViewHolder>() {
 
     private val products = mutableListOf<ProductData>()
 
@@ -53,29 +54,14 @@ class ProductsAdapter : RecyclerView.Adapter<ViewHolder>() {
 
                 binding.elProduct.isExpanded = isExpanded
 
-                Glide.with(binding.root.context).load(image?.url).into(binding.ivProductLogo)
+                Glide.with(binding.root.context).load(image?.url)
+                    .placeholder(R.drawable.ic_download).into(binding.ivProductLogo)
             }
         }
         setAnimation(holder.itemView, position)
     }
 
     override fun getItemCount() = products.size
-
-//    inner class ViewHolder(private val binding: ItemProductBinding) :
-//        RecyclerView.ViewHolder(binding.root) {
-//
-//        init {
-//            binding.tvMore.setOnClickListener {
-//                products[layoutPosition].isExpanded = !products[layoutPosition].isExpanded
-//                notifyItemChanged(layoutPosition)
-//            }
-//        }
-//
-//        fun bind(product: ProductData) = with(binding) {
-//
-//        }
-//
-//    }
 
     @SuppressLint("NotifyDataSetChanged")
     fun setData(products: ArrayList<ProductData>) {
